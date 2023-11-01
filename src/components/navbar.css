@@ -1,0 +1,40 @@
+.main-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 450px;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+.external-links{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+a:hover{
+    color: blue;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+}
+.button{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+.button:hover{
+    background-color: rgb(5, 5, 157);
+}
